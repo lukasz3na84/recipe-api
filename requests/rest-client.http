@@ -1,0 +1,23 @@
+### NestJs endpoint
+GET http://localhost:3000/
+
+### Create fruit
+POST http://localhost:3000/
+Content-Type: application/json
+
+{
+    "name": "Mango"
+}
+
+### Update fruit
+PUT http://localhost:3000/
+Content-Type: application/json
+
+{
+    "name": "Cherry"
+}
+
+### Delete fruit
+DELETE http://localhost:3000/1
+Content-Type: application/json
+
